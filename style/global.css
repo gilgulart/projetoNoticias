@@ -36,6 +36,10 @@ a:hover {
   color: var(--brand-color-light);
 }
 
+img {
+  max-width: 100%;
+}
+
 h1,
 h2,
 h3 {
@@ -47,10 +51,6 @@ h3 {
   margin-inline: auto;
 }
 
-.grid {
-  display: grid;
-}
-
-.flow-col {
-  grid-auto-flow: column;
+main {
+  margin-top: 40px;
 }
